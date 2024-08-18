@@ -3,6 +3,7 @@ from DatabaseQueries import DatabaseManager
 from serializers import serializer, deserializer
 
 object = DatabaseManager()
+# object.CreateTables()
 
 # values = [('ERCOT', 'https://www.linkedin.com/company/ercot'), ('NRG Energy', 'https://www.linkedin.com/company/nrgenergy')]
 # object.insert('CompanyData', values)
